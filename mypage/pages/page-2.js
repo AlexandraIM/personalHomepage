@@ -9,9 +9,9 @@ export default class Index extends React.Component {
     return (
       <div>
         <h1>
-          Hi people
+          Contacts
         </h1>
-        <p>Welcome to page 2</p>
+        
         <Link to={prefixLink('/')}>Go back to the homepage</Link>
       </div>
     )
