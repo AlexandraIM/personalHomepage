@@ -11,8 +11,6 @@ export default class Index extends React.Component {
         <h1>
           Contacts
         </h1>
-        
-        <Link to={prefixLink('/')}>Go back to the homepage</Link>
       </div>
     )
   }
