@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
+import me from './img/me.jpeg'
+
 
  class NabBar extends React.Component {
   render() {
     return (
-      <div>
+      <div className="navigation" >
         <ul>
             <li>
                 <Link to={prefixLink('/')}>About Me</Link>
@@ -18,4 +20,17 @@ import { prefixLink } from 'gatsby-helpers'
     )
   }
 }
-export default NabBar;
+export default class Header extends React.Component{
+
+  render(){
+    return(
+      <div >
+        <div className="header ">
+          <Link to={prefixLink('/')} >Alexandra Imereli</Link>
+          <img src={me} alt='My Photo'/>
+        </div>
+        <NabBar/>
+      </div>
+    )
+  }
+}

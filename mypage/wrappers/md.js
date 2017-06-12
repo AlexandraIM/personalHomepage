@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import 'css/markdown-styles.css'
+import 'css/style.css'
 import Helmet from 'react-helmet'
 import { config } from 'config'
+
 
 export default class Markdown extends React.Component {
   static propTypes = {

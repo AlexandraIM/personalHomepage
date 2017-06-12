@@ -4,7 +4,8 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
-import NavBar from '../pages/navbar'
+import Header from '../pages/header'
+import Footer from '../pages/footer'
 
 export default class Template extends React.Component {
   static propTypes = {
@@ -14,7 +15,7 @@ export default class Template extends React.Component {
   render() {
    
     return (
-      <div>
+      <div className="body">
         <Helmet
           title={config.siteTitle}
           meta={[
@@ -22,10 +23,11 @@ export default class Template extends React.Component {
             { name: "keywords", content: "sample, something" },
           ]}
         />
-        <NavBar/>
-        <div>     
+        <Header/>
+        <div className="section">     
           {this.props.children}
         </div>
+        <Footer/>
       </div>
     )
   }
