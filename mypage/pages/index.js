@@ -11,8 +11,8 @@ export default class Index extends React.Component {
         <h2>
           Hi I'm Alexandra
         </h2>
-        <p>I'm a web developer with 2 years experience.</p>
-        <p>Technologies i like to use are:</p>
+        <p>I'm a web developer with experience in analitic.</p>
+        <p>Technologies I like to use are:</p>
         <ul>
           <li>JavaScript</li>
           <li>C#</li>
@@ -22,7 +22,6 @@ export default class Index extends React.Component {
           <li>Bootstrap</li>
           <li>Font Awesome</li>
         </ul>
-        <br/>
         <p>Also always like to learn new and interesting frameworks.</p>
       </div>
     )

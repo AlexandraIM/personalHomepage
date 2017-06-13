@@ -89,6 +89,22 @@ margin: auto;
   padding: 10px 20px;
 }
 
+/*************
+* Experiance *
+*************/
+.experiance{
+margin: auto;
+  width: 50%;
+  padding: 10px 20px;
+}
+.experiance h4{
+  text-decoration: underline;
+}
+.experiance h4, .experiance h5{
+  font-size: 20px;
+}
+
+
 /************
 * Contacts  *
 ************/
@@ -119,4 +135,8 @@ margin: auto;
 ***********/
 .footer{
     text-align: center;
+    
+}
+.footer a{
+  color: #ffaa07;
 }
