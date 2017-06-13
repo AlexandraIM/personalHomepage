@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import 'css/style.css'
+import 'css/font-awesome.min.css'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 

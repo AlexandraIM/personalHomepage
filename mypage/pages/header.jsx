@@ -13,7 +13,10 @@ import me from './img/me.jpeg'
                 <Link to={prefixLink('/')}>About Me</Link>
             </li>
             <li>
-                <Link to={prefixLink('/page-2/')}>Contacts</Link>
+              <Link to={prefixLink('/experince/')}>Experiance</Link>
+            </li>
+            <li>
+                <Link to={prefixLink('/contacts/')}>Contacts</Link>
             </li>
         </ul>
       </div>

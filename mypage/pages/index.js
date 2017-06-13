@@ -7,10 +7,23 @@ import { config } from 'config'
 export default class Index extends React.Component {
   render() {
     return (
-      <div>
-        <h1>
-          About Me
-        </h1>
+      <div className="about">
+        <h2>
+          Hi I'm Alexandra
+        </h2>
+        <p>I'm a web developer with 2 years experience.</p>
+        <p>Technologies i like to use are:</p>
+        <ul>
+          <li>JavaScript</li>
+          <li>C#</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
+          <li>Font Awesome</li>
+        </ul>
+        <br/>
+        <p>Also always like to learn new and interesting frameworks.</p>
       </div>
     )
   }

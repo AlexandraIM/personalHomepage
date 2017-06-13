@@ -16,34 +16,40 @@
     color: #ffaa07;
     text-decoration: none;
     margin: 20px;
+    font-size: 30px;
 }
 
 /* ****************
 * Navigation menu *
 *******************/
 .navigation{
-    background: #000;
+    margin: 0 auto;
+    background: linear-gradient(#383839,#000);
 }
-ul {
+.navigation ul {
+     overflow: hidden;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
+    widows: 50%;
+
 }
-li {
+.navigation ul li {
     display: inline;
     float: left;
+    text-align: center;
+    width: 33.3%;
 }
-li a{
+.navigation ul li a{
     text-decoration: none;
     display: block;
     padding: 8px;
-    background-color:#000;
     color: #ffaa07;
-
+    font-size: 20px;
 }
 
-li a:hover{
-    background-color: #ffaa07;
+.navigation ul li a:hover{
+    background:  #ffaa07;
     color: #000;
 }
 
@@ -52,6 +58,9 @@ li a:hover{
 *********/
 .body{
      background-color:#acaca4;
+     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header, .footer{
@@ -59,11 +68,55 @@ li a:hover{
   overflow: auto;
   color: #ffaa07;
 }
+/**********
+* Section *
+**********/
+
 .section{
-  margin-top: 80px;
-  margin-bottom:10px;
+  margin: 10px;
   background-color:#f0c282;
   border-radius:1em;
   color:#633517;
-  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+      flex: 1 0 auto;
+}
+/***********
+* About    *
+***********/
+.about{
+margin: auto;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+/************
+* Contacts  *
+************/
+.contacts{
+  margin: auto;
+  width: 50%;
+  padding: 10px 20px;
+}
+.contacts h5{
+  font-size: 20px;
+}
+.contacts i{
+  font-size: 20px;
+}
+
+.fa-facebook{
+  color: #3B5998;
+}
+.fa-envelope-o{
+  color:#EA4335;
+}
+.fa-github{
+  color:#913399;
+}
+
+/***********
+* Footer   *
+***********/
+.footer{
+    text-align: center;
 }
