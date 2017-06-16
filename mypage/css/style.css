@@ -26,15 +26,20 @@
     margin: 0 auto;
     background: linear-gradient(#383839,#000);
 }
+.wideDiv{
+  display: none;
+}
+
+
 .navigation ul {
-     overflow: hidden;
+    overflow: hidden;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
     widows: 50%;
 
 }
-.navigation ul li {
+.navigation .wideDiv ul li {
     display: inline;
     float: left;
     text-align: center;
@@ -51,6 +56,27 @@
 .navigation ul li a:hover{
     background:  #ffaa07;
     color: #000;
+}
+
+.navNarrow span{
+  color: #ffaa07;
+  padding-left: 5px;
+}
+
+.links{
+  display: none;
+}
+.links li{
+  display: inline;
+}
+
+@media (min-width: 680px){
+  .navigation .wideDiv{
+    display: inline;
+  }
+  .navigation .navNarrow{
+    display: none;
+  }
 }
 
 /*********
